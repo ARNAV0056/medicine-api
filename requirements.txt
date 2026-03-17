@@ -1,6 +1,6 @@
 flask==3.0.3
 torch==2.9.0
-transformers==4.40.0
+transformers==4.44.0
 Pillow==11.2.1
 rapidfuzz==3.9.0
 gunicorn==22.0.0

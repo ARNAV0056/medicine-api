@@ -4,4 +4,4 @@ transformers==4.44.0
 Pillow==11.2.1
 rapidfuzz==3.9.0
 gunicorn==22.0.0
-huggingface_hub==0.23.0
+huggingface_hub==0.24.0

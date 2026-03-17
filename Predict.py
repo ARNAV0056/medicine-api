@@ -12,6 +12,7 @@ HF_TOKEN = os.environ.get("HF_TOKEN", None)  # only needed if your HF repo is Pr
 
 MODEL_PATH = snapshot_download(
     repo_id="Arnav-Vashist/medicine-ocr"
+    force_download=True
 )
 
 print(f"Model path: {MODEL_PATH}")

@@ -11,7 +11,7 @@ print("Downloading / loading model from Hugging Face...")
 HF_TOKEN = os.environ.get("HF_TOKEN", None)  # only needed if your HF repo is Private
 
 MODEL_PATH = snapshot_download(
-    repo_id="Arnav-Vashist/medicine-ocr"
+    repo_id="Arnav-Vashist/medicine-ocr",
     force_download=True
 )
 

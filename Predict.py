@@ -69,6 +69,8 @@ def predict(image_path, use_vocab_snap=True):
         match   = fuzz_process.extractOne(
             raw_pred, MEDICINE_VOCAB, score_cutoff=60
         )
+
+        
         snapped = match[0] if match else raw_pred
         return raw_pred, snapped
 

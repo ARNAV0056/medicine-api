@@ -17,7 +17,7 @@ MODEL_PATH = snapshot_download(
 
 print(f"Model path: {MODEL_PATH}")
 
-p# Load processor from original base model (more reliable)
+# Load processor from original base model (more reliable)
 processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-handwritten")
 # Load your fine-tuned model weights
 model = VisionEncoderDecoderModel.from_pretrained(MODEL_PATH)
